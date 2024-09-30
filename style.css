@@ -1,0 +1,68 @@
+.contenaire {
+    display: flex;
+    color: white;
+}
+.bleu {
+    background-color:blue;
+    flex-grow: 1;
+    text-align: center;
+    border-radius: 12px;
+    margin: 10px;
+}
+.rouge {
+    background-color: red;
+    flex-grow: 2;
+    text-align: center;
+    border-radius: 12px;
+    margin: 10px;
+    width: 40%;
+}
+.bleu2 {
+    background-color: blue;
+    flex-grow: 1;
+    text-align: center;
+    border-radius: 12px;
+    margin: 10px;
+}
+.Menu {
+    display: flex;
+    align-items: center;
+}
+hr {
+    height: 5px;
+    width: 1200px;
+    background-color: black;
+}
+.Photo-voiture{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 5px;
+}
+
+img{
+    flex-grow: 1;
+    object-fit: cover;
+}
+h2 {
+    color: white;
+    background-color: blue;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+    align-items: center;    
+}
+
+
+.load-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.chargement{
+    background-color:navy;
+    border: none;
+    border-radius: 20px;
+    padding: 1rem;
+    margin-top: 2rem;
+}
